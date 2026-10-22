@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video in page</title>
+    <style>
+        /* Styles the entire website*/
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+
+        /*Styles the video player*/
+        video {
+            /*Places the video on its own line */
+            display: block;
+            width: 100%;
+
+            aspect-ratio: 16 / 9;
+            height: auto;
+            /* displays black BG while video loads */
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Video in Website</h1>
+    <p>Watch the video below</p>
+
+    <!-- Creates a video player with built-in playback controls-->
+    <video controls>
+        <source src="videoflowers.mp4" type="video/mp4">
+        Sorry, your browser cannot play this video
+    </video>
+    
+</body>
+</html>
