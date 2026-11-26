@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humans of New York</title>
+    <meta name="description" content="A Human of New York story. Course exercise (cart211) exploring semantic HTML, CSS grid and accesible media presentation">
+    
+    <!--open graph metadata controls how the page looks when shared on Social Media-->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Humans of New York">
+    <meta property="og:description" content="A Humans of New York story for cart211">
+    <meta property="og:url" content="github url">
+    <meta property="og:image" content="image asset">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="portrait associated with the america pageant story">
+
+    <!--twitter card metadata controls the appearance if shared links on X-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="A Humans of New York story for CART211">
+    <meta name="twitter:description" content="A Humans of New York story for CART211">
+    <meta name="twitter:image" content="image asset">
+
+    <!--Identifies the preferredURL for this page to search engines -->
+    <link rel="canonical" href="link to humans html">
+
+    <!-- adds a small icon to the browser tab (Fixed typo) -->
+    <link rel="icon" href="assets/favicon.ico">
+
+    <meta name="author" content="antonyhatem">
+    <meta name="copyright" content="antonyhatem, student project">
+
+    <!--stylesheet link-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bytesized&display=swap" rel="stylesheet">
+
+    <!--the social media icons and hamburger menu library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/logo.png" alt="Logo" width="110" height="50">
+                    </a>
+                </div>
+
+                <div class="menu1">
+
+                <!-- The X button closes the mobile navigation. -->
+                 <button type="button" class="close-menu" aria-label="Close Menu">
+                    &times;
+
+                 </button>
+
+
+
+                    <a href="stories.html" class="menu1">STORIES</a>
+                    <a href="#" class="menu1">SERIES</a>
+                    <a href="ass5-index.html" class="menu1">ABOUT</a>
+                </div>
+
+                <!-- Hamburger button: displayed on mobile and tablet screens -->
+                 <div class="hamburger menu">
+                    <button type="button" aria-label="Open Menu">
+                        <!-- font awesome displays the three horizontal menu lines -->
+                        <span class="fa fa-bars" aria-hidden="true">
+
+                        </span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!--SECTION: groups the main content of the page-->
+        <section>
+            <!--ARTICLE : contains a related piece of written and visual content-->
+            <article>
+                <h1>Humans of New York</h1>
+
+                <p class="intro">
+                    Humans of New York began as Brandon Stanton photography project in 2010. The initial goal was to photograph 10,000 New Yorkers on the street, and create an exhaustive catalogue of the city’s inhabitants.
+                </p>
+
+                <p class="intro">
+                    Taken together, these portraits and captions became the subject of a vibrant blog. HONY now has over twenty million followers on social media, and provides a worldwide audience with daily glimpses into the lives of strangers on the streets of New York City. 
+                </p>
+
+                <!--IMAGE GALLERY-->
+                <div class="pict">
+                    <!--FIGURE 1-->
+                    <figure class="iml1">
+                        <a href="story1.html">
+                            <img src="assets/america_pageant.jpg" class="im" alt="america pageant portrait">
+                        </a>
+                        <div class="hover-text">America Pageant</div>
+                    </figure>
+
+                    <!--FIGURE 2-->
+                    <figure class="iml2">
+                        <a href="story1.html">
+                            <img src="assets/Chipwich_guy.jpg" class="im" alt="CHIPWICH GUY portrait">
+                        </a>
+                        <div class="hover-text">Chipwich Guy</div>
+                    </figure>
+
+                    <!--FIGURE 3-->
+                    <figure class="iml3">
+                        <a href="story1.html">
+                            <img src="assets/end_of_life_patient.jpg" class="im" alt="end of life patient portrait">
+                        </a>
+                        <div class="hover-text">End of Life Patient</div>
+                    </figure>
+
+                    <!--FIGURE 4-->
+                    <figure class="iml4">
+                        <a href="story1.html">
+                            <img src="assets/fake_sport.jpg" class="im" alt="fake sport portrait">
+                        </a>
+                        <div class="hover-text">Fake Sport</div>
+                    </figure>
+
+                    <!--FIGURE 5-->
+                    <figure class="iml5">
+                        <a href="story1.html">
+                            <img src="assets/gettin_married.jpg" class="im" alt="gettin married portrait">
+                        </a>
+                        <div class="hover-text">Gettin' Married</div>
+                    </figure>
+
+                    <!--FIGURE 6-->
+                    <figure class="iml6">
+                        <a href="story1.html">
+                            <img src="assets/invisibility.jpg" class="im" alt="invisibility portrait">
+                        </a>
+                        <div class="hover-text">Invisibility</div>
+                    </figure>
+
+                    <!--FIGURE 7-->
+                    <figure class="iml7">
+                        <a href="story1.html">
+                            <img src="assets/Right_and_wrong.jpg" class="im" alt="right and wrong portrait">
+                        </a>
+                        <div class="hover-text">Right and Wrong</div>
+                    </figure>
+
+                    <!--FIGURE 8-->
+                    <figure class="iml8">
+                        <a href="story1.html">
+                            <img src="assets/homework.jpg" class="im" alt="homework portrait">
+                        </a>
+                        <div class="hover-text">Homework</div>
+                    </figure>
+
+                    <!--FIGURE 9-->
+                    <figure class="iml9">
+                        <a href="story1.html">
+                            <img src="assets/sketchbook.jpg" class="im" alt="sketchbook portrait">
+                        </a>
+                        <div class="hover-text">Sketchbook</div>
+                    </figure>
+
+                    <!--FIGURE 10-->
+                    <figure class="iml10">
+                        <a href="story1.html">
+                            <img src="assets/the_algorithm.jpg" class="im" alt="the algorithm portrait">
+                        </a>
+                        <div class="hover-text">The Algorithm</div>
+                    </figure>
+
+                    <!--FIGURE 11-->
+                    <figure class="iml11">
+                        <a href="story1.html">
+                            <img src="assets/The_Empire.jpg" class="im" alt="The Empire portrait">
+                        </a>
+                        <div class="hover-text">The Empire</div>
+                    </figure>
+
+                    <!--FIGURE 12-->
+                    <figure class="iml12">
+                        <a href="story1.html">
+                            <img src="assets/Mardi-Gras.jpg" class="im" alt="Mardi-Gras portrait">
+                        </a>
+                        <div class="hover-text">Mardi Gras</div>
+                    </figure>
+
+                    <!--FIGURE 13-->
+                    <figure class="iml13">
+                        <a href="story1.html">
+                            <img src="assets/they_loved_me.jpg" class="im" alt="they loved me portrait">
+                        </a>
+                        <div class="hover-text">They Loved Me</div>
+                    </figure>
+
+                    <!--FIGURE 14-->
+                    <figure class="iml14">
+                        <a href="story1.html">
+                            <img src="assets/exhausting_to_me.jpg" class="im" alt="exhausting to me portrait">
+                        </a>
+                        <div class="hover-text">Exhausting to Me</div>
+                    </figure>
+                </div>
+                <!--end of image gallery-->
+            </article>
+        </section>
+
+        <footer>
+            <section class="social-section">
+                <div class="social-icons">
+                    <a href="https://facebook.com" class="social facebook" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com" class="social instagram" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com" class="social twitter" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://tiktok.com" class="social tiktok" aria-label="Tiktok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://youtube.com" class="social youtube" aria-label="Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://github.com" class="social github" aria-label="Github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" class="social linkedin" aria-label="Linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </section>
+            <p>
+                copyright, antonyhatem, cart211, fall 2026, assessment 5, credits: humansofnycarchive.com
+            </p>
+        </footer>
+    </div>
+
+    <!-- Javascript: 
+    Makes the mobile menu open and close when the hamburger button is clicked. JS ads or removes a CSS class. The CSS class controls whether the menu is visible or hidden. -->
+    <script>
+        // Wait until the HTML document has finished loading.
+        // This ensures the buttons exist before JS tries to select them.
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+
+            // Find the X button used to close the navigation menu
+            const closedButton = document.querySelector('.close-menu');
+
+            //find the container holding the navigation links
+            const menuContainer = document.querySelector('.menu1');
+
+            //When the hamburger button is clicked, add the class "menu-deployed" to the navigation menu. When the CSS uses this class, the menu is visible.
+            hamburgerButton.addEventListener('click',  () =>{
+                menu1.classList.add('menu-deployed');
+        });
+
+            //When the X button is clicked, remove the class "menu-deployed" from the navigation menu. 
+            closedButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+    });
+            
+    </script>
+    <!-- End of Javascript -->
+</body>
+
+</html>
